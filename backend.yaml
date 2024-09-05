@@ -55,7 +55,7 @@
       - PyMySQL
       executable: pip3.9
 
-  - name: import mysql data
+  - name: import mysqld data
     community.mysql.mysql_db:
       login_user: root
       login_password: "{{ mysql_root_paasword }}"
