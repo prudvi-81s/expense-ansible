@@ -3,7 +3,7 @@
   become: yes
   vars:
     mysql_root_password: ExpenseApp@1
-    login_host: mysql.paws81s.online
+    login_host: mysql.prudvi-81s.online
   tasks:
   - name: install MySql server
     ansible.builtin.package:
